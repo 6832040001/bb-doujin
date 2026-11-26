@@ -27,7 +27,21 @@
   function loadCatalog() {
     try {
       const saved = localStorage.getItem(STORAGE_CATALOG);
-      if (saved) window.BB_CATALOG = JSON.parse(saved);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        // Upgrade old SVG placeholder covers/banners to real local artwork paths
+        let upgraded = false;
+        parsed.forEach((item) => {
+          const def = DEFAULT_CATALOG.find((d) => d.id === item.id);
+          if (def && typeof item.cover === "string" && item.cover.startsWith("data:image/svg+xml")) {
+            item.cover = def.cover;
+            item.banner = def.banner;
+            upgraded = true;
+          }
+        });
+        window.BB_CATALOG = parsed;
+        if (upgraded) saveCatalog();
+      }
     } catch (_) {}
   }
 

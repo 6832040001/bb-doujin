@@ -81,8 +81,8 @@ window.BB_CATALOG = [
     featured: true,
     updatedAt: "15 นาทีที่แล้ว",
     genres: ["Action", "Adventure", "Fantasy", "Martial Arts", "Sci-Fi"],
-    cover: makeCover("NANO MACHINE", "นาโนมาชิน", "#1e1b4b", "#09090b", "#38bdf8"),
-    banner: makeBanner("#1e1b4b", "#31102f", "#38bdf8"),
+    cover: "assets/covers/nano-machine.jpg",
+    banner: "assets/banners/nano-machine.jpg",
     synopsis: "เรื่องย่อ Nano Machine นาโนมาชิน — ชอนยออู ลูกนอกสมรสแห่งพรรคมารที่ถูกดูแคลนมาตลอดชีวิต จนกระทั่งทายาทจากอนาคตได้ฉีดนาโนมาชินรุ่นที่ 7 เข้าสู่ร่างกายของเขา เปลี่ยนชะตากรรมสู่จุดสูงสุดแห่งยุทธภพ"
   },
   {
@@ -95,8 +95,8 @@ window.BB_CATALOG = [
     featured: true,
     updatedAt: "32 นาทีที่แล้ว",
     genres: ["Action", "Adventure", "Comedy", "Fantasy"],
-    cover: makeCover("OVERGEARED", "จ้าวแห่งยุทธภัณฑ์", "#3b0764", "#09090b", "#a855f7"),
-    banner: makeBanner("#2e1065", "#0f172a", "#a855f7"),
+    cover: "assets/covers/overgeared.jpg",
+    banner: "assets/banners/overgeared.jpg",
     synopsis: "ชินยองอู ผู้เล่นเกม VRMMORPG ที่โชคร้ายที่สุดในโลก บังเอิญได้พบกับคลาสในตำนาน 'ผู้สืบทอดแห่งแพ็กมา' และเริ่มต้นเส้นทางช่างตีเหล็กในตำนาน"
   },
   {
@@ -109,8 +109,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "1 ชั่วโมงที่แล้ว",
     genres: ["Action", "Martial Arts", "Drama"],
-    cover: makeCover("SPEAR GHOST", "ยอดทวนไร้เทียมทาน", "#450a0a", "#09090b", "#ef4444"),
-    banner: makeBanner("#450a0a", "#18181b", "#ef4444"),
+    cover: "assets/covers/unrivaled-spear-ghost.jpg",
+    banner: "assets/covers/unrivaled-spear-ghost.jpg",
     synopsis: "ยอดฝีมือผู้ใช้ทวนที่ถูกทรยศและฟื้นคืนชีพกลับมาในร่างใหม่ เพื่อทวงคืนความยุติธรรมและขึ้นสู่จุดสูงสุดแห่งเพลงทวน"
   },
   {
@@ -123,8 +123,8 @@ window.BB_CATALOG = [
     featured: true,
     updatedAt: "2 ชั่วโมงที่แล้ว",
     genres: ["Action", "Comedy", "Martial Arts", "Adventure"],
-    cover: makeCover("HWA SAN", "หวนคืนสู่ฮวาซาน", "#500724", "#09090b", "#fb7185"),
-    banner: makeBanner("#4c0519", "#1e1b4b", "#fb7185"),
+    cover: "assets/covers/flowery-mountain-sect.jpg",
+    banner: "assets/banners/flowery-mountain-sect.jpg",
     synopsis: "ชองมยอง ปรมาจารย์กระบี่รุ่นที่ 13 แห่งสำนักฮวาซาน ตื่นขึ้นมาในอีก 100 ปีข้างหน้า และพบว่าสำนักอันยิ่งใหญ่ของเขากำลังจะล่มสลาย"
   },
   {
@@ -137,8 +137,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "3 ชั่วโมงที่แล้ว",
     genres: ["Action", "Martial Arts", "Fantasy"],
-    cover: makeCover("REGRESSION", "หวนคืนสู่จุดเริ่มต้น", "#431407", "#09090b", "#f59e0b"),
-    banner: makeBanner("#431407", "#0f172a", "#f59e0b"),
+    cover: "assets/covers/absolute-regression.jpg",
+    banner: "assets/covers/absolute-regression.jpg",
     synopsis: "เมื่อสูญเสียทุกสิ่งไปในโลกยุทธภพ เขาใช้ศาสตร์ต้องห้ามย้อนเวลากลับมาในวัยหนุ่มเพื่อแก้ไขทุกความผิดพลาด"
   },
   {
@@ -151,8 +151,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "4 ชั่วโมงที่แล้ว",
     genres: ["Action", "Martial Arts", "Drama"],
-    cover: makeCover("FIST KING", "ราชันหมัดหวนคืน", "#172554", "#09090b", "#60a5fa"),
-    banner: makeBanner("#172554", "#111827", "#60a5fa"),
+    cover: "assets/covers/fist-king.jpg",
+    banner: "assets/covers/fist-king.jpg",
     synopsis: "ราชันแห่งหมัดผู้ไร้พ่ายกลับชาติมาเกิดในร่างของเด็กหนุ่มอ่อนแอ พร้อมความทรงจำและเคล็ดวิชาทั้งหมด"
   },
   {
@@ -165,8 +165,8 @@ window.BB_CATALOG = [
     featured: true,
     updatedAt: "5 ชั่วโมงที่แล้ว",
     genres: ["Action", "Fantasy", "Adventure"],
-    cover: makeCover("RAGNAROK", "Solo Leveling", "#0c4a6e", "#09090b", "#38bdf8"),
-    banner: makeBanner("#0c4a6e", "#09090b", "#38bdf8"),
+    cover: "assets/covers/solo-leveling-ragnarok.jpg",
+    banner: "assets/banners/solo-leveling-ragnarok.jpg",
     synopsis: "ซองซูโฮ บุตรชายของซองจินอู ต้องปลุกพลังจักรพรรดิเงาที่หลับใหลอยู่เพื่อปกป้องโลกจากภัยคุกคามครั้งใหม่"
   },
   {
@@ -179,8 +179,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "40 นาทีที่แล้ว",
     genres: ["Fantasy", "Adventure", "Drama", "Sci-Fi"],
-    cover: makeCover("SHADOW TOWER", "นิยายแปลไทย", "#1e293b", "#020617", "#818cf8"),
-    banner: makeBanner("#1e293b", "#09090b", "#818cf8"),
+    cover: "assets/covers/shadow-academy-novel.jpg",
+    banner: "assets/covers/shadow-academy-novel.jpg",
     synopsis: "นิยายแฟนตาซีเข้มข้น ว่าด้วยเรื่องราวของนักศึกษาเวทมนตร์ที่ค้นพบบันทึกต้องห้ามใต้หอคอยชั้น 99 และต้องเอาชีวิตรอดจากเกมการเมืองของเหล่าจอมเวท"
   },
   {
@@ -193,8 +193,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "2 ชั่วโมงที่แล้ว",
     genres: ["Romance", "Comedy", "Drama", "Fantasy"],
-    cover: makeCover("LADY REBORN", "นิยายรักแฟนตาซี", "#4c0519", "#0f172a", "#f472b6"),
-    banner: makeBanner("#4c0519", "#0f172a", "#f472b6"),
+    cover: "assets/covers/villainess-reborn-novel.jpg",
+    banner: "assets/covers/villainess-reborn-novel.jpg",
     synopsis: "เมื่อรู้ตัวว่าเกิดใหม่เป็นนางร้ายที่มีจุดจบอนาถ เธอจึงตัดสินใจยื่นใบลาออกจากตำแหน่งคู่หมั้นรัชทายาทแล้วหนีไปเปิดร้านขนม"
   },
   {
@@ -207,8 +207,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "6 ชั่วโมงที่แล้ว",
     genres: ["Sci-Fi", "Action", "Drama"],
-    cover: makeCover("NEON RONIN", "นิยายไซไฟ", "#042f2e", "#09090b", "#2dd4bf"),
-    banner: makeBanner("#042f2e", "#09090b", "#2dd4bf"),
+    cover: "assets/covers/cyber-blade-novel.jpg",
+    banner: "assets/covers/cyber-blade-novel.jpg",
     synopsis: "โลกไซเบอร์พังก์ปี 2099 เมื่อซามูไรรับจ้างผู้มีแขนกลต้องรับภารกิจคุ้มกันแฮกเกอร์สาวที่กุมความลับของเมกะคอร์ป"
   },
   {
@@ -221,8 +221,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "1 ชั่วโมงที่แล้ว",
     genres: ["Romance", "Comedy", "Drama", "Ecchi"],
-    cover: makeCover("MIDNIGHT CAFE", "Doujin แปลไทย", "#701a75", "#09090b", "#f472b6"),
-    banner: makeBanner("#701a75", "#09090b", "#f472b6"),
+    cover: "assets/covers/midnight-cafe-doujin.jpg",
+    banner: "assets/covers/midnight-cafe-doujin.jpg",
     synopsis: "โดจินออริจินัลเรื่องราวความสัมพันธ์สุดอบอุ่นปนความลับของบาริสต้าหนุ่มกับลูกค้าสาวประจำที่แวะมาเฉพาะหลังเที่ยงคืน"
   },
   {
@@ -235,8 +235,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "3 ชั่วโมงที่แล้ว",
     genres: ["Adult", "Fantasy", "Ecchi", "Romance"],
-    cover: makeCover("CRIMSON", "Doujin 18+", "#881337", "#09090b", "#fb7185"),
-    banner: makeBanner("#881337", "#09090b", "#fb7185"),
+    cover: "assets/covers/crimson-contract-doujin.jpg",
+    banner: "assets/covers/crimson-contract-doujin.jpg",
     synopsis: "โดจินแฟนตาซีดาร์กโรแมนซ์ เรื่องราวของอัศวินสาวที่ต้องทำพันธสัญญาลับกับจอมมารเพื่อปกป้องอาณาจักร"
   },
   {
@@ -249,8 +249,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "5 ชั่วโมงที่แล้ว",
     genres: ["Comedy", "Ecchi", "Romance", "Adult"],
-    cover: makeCover("SUMMER LOVE", "Doujin สีทั้งเรื่อง", "#0e7490", "#09090b", "#22d3ee"),
-    banner: makeBanner("#0e7490", "#09090b", "#22d3ee"),
+    cover: "assets/covers/summer-island-doujin.jpg",
+    banner: "assets/covers/summer-island-doujin.jpg",
     synopsis: "ทริปฤดูร้อนของชมรมถ่ายภาพบนเกาะส่วนตัวที่เต็มไปด้วยเรื่องชวนใจเต้นและความลับของสมาชิกแต่ละคน"
   },
   {
@@ -263,8 +263,8 @@ window.BB_CATALOG = [
     featured: false,
     updatedAt: "7 ชั่วโมงที่แล้ว",
     genres: ["Action", "Comedy", "Fantasy", "Adventure"],
-    cover: makeCover("APOCALYPSE", "เชฟวันสิ้นโลก", "#3f6212", "#09090b", "#a3e635"),
-    banner: makeBanner("#3f6212", "#09090b", "#a3e635"),
+    cover: "assets/covers/apocalypse-chef-manhwa.jpg",
+    banner: "assets/covers/apocalypse-chef-manhwa.jpg",
     synopsis: "เมื่อมอนสเตอร์บุกโลก มีเพียงพ่อครัวผู้ครอบครองสกิลปรุงวัตถุดิบระดับตำนานเท่านั้นที่สร้างอาหารเพิ่มบัฟให้ฮันเตอร์ได้"
   }
 ];
