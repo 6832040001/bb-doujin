@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BB-DOUJIN — เว็บอ่านนิยาย Manhwa และ Doujin อัปเดตไว</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Announcement Strip -->
+  <div class="top-banner" id="topBanner">
+    เว็บอ่านนิยาย Manhwa &amp; Doujin 2026 อ่านฟรี โหลดไว ไม่มีโฆษณาบัง
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="BB-DOUJIN Home">
+        <span class="logo-text" id="siteLogoText">BB-DOUJIN</span>
+      </a>
+
+      <nav class="main-nav" aria-label="เมนูหลัก">
+        <a href="#browse/all" class="nav-link" data-nav="all">อ่านทั้งหมด</a>
+        <a href="#browse/Manhwa" class="nav-link" data-nav="Manhwa">มังงะเกาหลี</a>
+        <a href="#browse/Novel" class="nav-link" data-nav="Novel">นิยายแปล</a>
+        <a href="#browse/Doujin" class="nav-link" data-nav="Doujin">โดจิน</a>
+        <a href="#bookmark" class="nav-link" data-nav="bookmark">
+          Bookmark <span class="badge-count" id="bookmarkCount">0</span>
+        </a>
+        <a href="#admin" class="nav-link nav-admin" data-nav="admin">⚙ Admin</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" title="สลับโหมดมืด/สว่าง" aria-label="สลับโหมดมืด/สว่าง">
+          <span class="theme-label">DARK?</span>
+          <span class="toggle-track">
+            <span class="toggle-thumb"></span>
+          </span>
+        </button>
+
+        <div class="search-box">
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="ค้นหาเรื่อง, แนว, นิยาย..."
+            autocomplete="off"
+            aria-label="ค้นหาเรื่อง"
+          />
+          <button class="search-btn" id="searchBtn" type="button" aria-label="ค้นหา">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+          </button>
+          <div class="search-dropdown" id="searchDropdown" hidden></div>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="เปิดเมนู">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#browse/all" class="mobile-nav-link">อ่านทั้งหมด</a>
+      <a href="#browse/Manhwa" class="mobile-nav-link">มังงะเกาหลี (Manhwa)</a>
+      <a href="#browse/Novel" class="mobile-nav-link">นิยายแปล (Novel)</a>
+      <a href="#browse/Doujin" class="mobile-nav-link">โดจิน (Doujin)</a>
+      <a href="#bookmark" class="mobile-nav-link">Bookmark</a>
+      <a href="#admin" class="mobile-nav-link">⚙ Admin จัดการหลังบ้าน</a>
+    </div>
+  </header>
+
+  <!-- Main Content Root -->
+  <main id="appRoot">
+    <!-- Home View -->
+    <section id="view-home" class="view">
+      <!-- Hero Featured Carousel -->
+      <div class="hero-wrapper">
+        <div class="hero-slider" id="heroSlider">
+          <!-- Rendered by app.js -->
+        </div>
+        <button class="hero-arrow hero-prev" id="heroPrev" type="button" aria-label="เรื่องก่อนหน้า">&#10094;</button>
+        <button class="hero-arrow hero-next" id="heroNext" type="button" aria-label="เรื่องถัดไป">&#10095;</button>
+        <div class="hero-dots" id="heroDots"></div>
+
+        <!-- Floating Genre Filter Bar -->
+        <div class="container genre-bar-wrap">
+          <div class="genre-bar">
+            <div class="genre-links" id="genreBarLinks">
+              <!-- Rendered by app.js -->
+            </div>
+            <a href="#browse/all" class="btn-all-series">เรื่องทั้งหมด</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container main-body">
+        <!-- Intro Text Block -->
+        <section class="intro-section">
+          <h2 class="intro-title">อ่านตอนใหม่ อัปเดตไว ครบทุกแนว</h2>
+          <p class="intro-desc">
+            หากคุณกำลังมองหาเว็บอ่าน <strong>Manhwa, นิยาย (Novel) และ Doujin</strong> ที่โหลดเร็ว อ่านลื่นไหล ไม่มีโฆษณาบังสายตา —
+            BB-DOUJIN รวมเรื่องฮิตอัปเดตตอนใหม่ทุกวัน รองรับทั้งโหมดอ่านมังงะเลื่อนแนวตั้ง และโหมดอ่านนิยายปรับขนาดตัวอักษรได้ตามใจ
+            ใช้งานสะดวกทั้งบนมือถือและพีซี พร้อมระบบบันทึก Bookmark และประวัติการอ่านอัตโนมัติ
+          </p>
+        </section>
+
+        <!-- Popular Section (7-Column Card Strip) -->
+        <section class="panel-section">
+          <div class="panel-header">
+            <h2 class="panel-title">เรื่องยอดนิยม</h2>
+            <div class="panel-tabs" id="popularTabs">
+              <button class="tab-btn active" data-type="all">ทั้งหมด</button>
+              <button class="tab-btn" data-type="Manhwa">Manhwa</button>
+              <button class="tab-btn" data-type="Novel">Novel</button>
+              <button class="tab-btn" data-type="Doujin">Doujin</button>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="cards-grid-7" id="popularGrid"></div>
+          </div>
+        </section>
+
+        <!-- Bottom Two-Column Section: Latest Updates & Ranking/Recommended -->
+        <div class="two-col-section">
+          <section class="panel-section">
+            <div class="panel-header">
+              <h2 class="panel-title">อัปเดตตอนใหม่ล่าสุด</h2>
+              <a href="#browse/all" class="panel-more">ดูทั้งหมด &rsaquo;</a>
+            </div>
+            <div class="panel-body">
+              <div class="latest-list" id="latestList"></div>
+            </div>
+          </section>
+
+          <section class="panel-section">
+            <div class="panel-header">
+              <h2 class="panel-title">นิยาย &amp; โดจินแนะนำ</h2>
+              <a href="#browse/Novel" class="panel-more">ดูเพิ่ม &rsaquo;</a>
+            </div>
+            <div class="panel-body">
+              <div class="side-rank-list" id="sideRankList"></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Browse / Filter View -->
+    <section id="view-browse" class="view" hidden>
+      <div class="container main-body page-pad">
+        <div class="panel-section">
+          <div class="panel-header browse-header">
+            <h1 class="panel-title" id="browseTitle">คลังเรื่องทั้งหมด</h1>
+            <div class="browse-controls">
+              <select id="filterType" aria-label="กรองตามประเภท">
+                <option value="all">ทุกประเภท</option>
+                <option value="Manhwa">Manhwa (มังงะสี)</option>
+                <option value="Novel">Novel (นิยาย)</option>
+                <option value="Doujin">Doujin (โดจิน)</option>
+              </select>
+              <select id="filterGenre" aria-label="กรองตามหมวดหมู่">
+                <option value="all">ทุกหมวดหมู่</option>
+              </select>
+              <select id="sortBy" aria-label="เรียงลำดับ">
+                <option value="popular">ยอดนิยม</option>
+                <option value="rating">คะแนนสูงสุด</option>
+                <option value="latest">ตอนใหม่ล่าสุด</option>
+              </select>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="cards-grid-7" id="browseGrid"></div>
+            <p class="empty-state" id="browseEmpty" hidden>ไม่พบเรื่องที่ตรงกับเงื่อนไขการค้นหา</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bookmark View -->
+    <section id="view-bookmark" class="view" hidden>
+      <div class="container main-body page-pad">
+        <div class="panel-section">
+          <div class="panel-header">
+            <h1 class="panel-title">Bookmark ของฉัน</h1>
+            <button class="btn-clear-bookmarks" id="clearBookmarksBtn" type="button">ล้างทั้งหมด</button>
+          </div>
+          <div class="panel-body">
+            <div class="cards-grid-7" id="bookmarkGrid"></div>
+            <div class="empty-state" id="bookmarkEmpty" hidden>
+              ยังไม่มีเรื่องที่บันทึกไว้ กดปุ่ม <strong>+ Bookmark</strong> ในหน้ารายละเอียดเรื่องเพื่อเก็บไว้อ่านภายหลัง
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Series Detail View -->
+    <section id="view-detail" class="view" hidden>
+      <div class="container main-body page-pad" id="detailContainer">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- Reader View (Supports both Manhwa/Doujin Vertical Scroll & Novel Text Mode) -->
+    <section id="view-reader" class="view" hidden>
+      <div id="readerContainer">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- Admin Dashboard View -->
+    <section id="view-admin" class="view" hidden>
+      <div class="container main-body page-pad" id="adminContainer">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text small">BB-DOUJIN</span>
+        <p>คลังอ่านนิยาย Manhwa และ Doujin ออนไลน์ — ดีไซน์เพื่อการอ่านที่สบายตาทั้งกลางวันและกลางคืน</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">หน้าแรก</a>
+        <a href="#browse/Manhwa">Manhwa</a>
+        <a href="#browse/Novel">นิยาย</a>
+        <a href="#browse/Doujin">Doujin</a>
+        <a href="#bookmark">Bookmark</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
